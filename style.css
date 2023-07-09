@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--darker-colour);
+    background-image: url(images/bgimg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
 html{
     font-size: 62.5%;
@@ -27,7 +30,7 @@ body{
     font-size: 1.4rem;
 }
 #project{
-    background: var(--darker-colour);
+    background: transparent;
 }
 #project h2{
     font-size: 6rem;
